@@ -1,0 +1,21 @@
+# DineBot Requirements
+# Lightweight dependencies for budget laptops
+
+# Web Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+
+# NLP - Using spaCy with small English model
+spacy==3.7.2
+# After installing requirements, run: python -m spacy download en_core_web_sm
+
+# Database
+# sqlite3 comes with Python, no need to install
+
+# Utilities
+python-dateutil==2.8.2
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.23.0  # For faster fuzzy matching
+
+# Development (optional)
+pytest==7.4.3

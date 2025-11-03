@@ -1,0 +1,136 @@
+{
+  "menu_items": [
+    {
+      "name": "Margherita Pizza",
+      "category": "Main Course",
+      "price": 299,
+      "description": "Classic pizza with tomato sauce, mozzarella cheese, and fresh basil",
+      "ingredients": ["tomato", "mozzarella", "basil", "olive oil"],
+      "is_vegetarian": true,
+      "is_vegan": false,
+      "spice_level": "mild",
+      "preparation_time": 15
+    },
+    {
+      "name": "Chicken Tikka Masala",
+      "category": "Main Course",
+      "price": 349,
+      "description": "Tender chicken pieces in creamy tomato-based curry",
+      "ingredients": ["chicken", "tomato", "cream", "spices", "onion", "garlic"],
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "spice_level": "medium",
+      "preparation_time": 20
+    },
+    {
+      "name": "Paneer Butter Masala",
+      "category": "Main Course",
+      "price": 279,
+      "description": "Cottage cheese cubes in rich buttery tomato gravy",
+      "ingredients": ["paneer", "tomato", "butter", "cream", "cashews", "spices"],
+      "is_vegetarian": true,
+      "is_vegan": false,
+      "spice_level": "mild",
+      "preparation_time": 18
+    },
+    {
+      "name": "Veg Spring Rolls",
+      "category": "Appetizer",
+      "price": 149,
+      "description": "Crispy rolls filled with mixed vegetables",
+      "ingredients": ["cabbage", "carrot", "beans", "noodles", "soy sauce"],
+      "is_vegetarian": true,
+      "is_vegan": true,
+      "spice_level": "mild",
+      "preparation_time": 12
+    },
+    {
+      "name": "Chicken Wings",
+      "category": "Appetizer",
+      "price": 249,
+      "description": "Spicy fried chicken wings with tangy sauce",
+      "ingredients": ["chicken", "hot sauce", "butter", "garlic", "spices"],
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "spice_level": "hot",
+      "preparation_time": 15
+    },
+    {
+      "name": "Caesar Salad",
+      "category": "Appetizer",
+      "price": 179,
+      "description": "Fresh romaine lettuce with parmesan and croutons",
+      "ingredients": ["lettuce", "parmesan", "croutons", "caesar dressing"],
+      "is_vegetarian": true,
+      "is_vegan": false,
+      "spice_level": "none",
+      "preparation_time": 8
+    },
+    {
+      "name": "Mango Lassi",
+      "category": "Beverage",
+      "price": 89,
+      "description": "Sweet and creamy yogurt drink with mango pulp",
+      "ingredients": ["yogurt", "mango", "sugar", "cardamom"],
+      "is_vegetarian": true,
+      "is_vegan": false,
+      "spice_level": "none",
+      "preparation_time": 5
+    },
+    {
+      "name": "Fresh Lime Soda",
+      "category": "Beverage",
+      "price": 69,
+      "description": "Refreshing lime juice with soda and mint",
+      "ingredients": ["lime", "soda", "mint", "sugar", "salt"],
+      "is_vegetarian": true,
+      "is_vegan": true,
+      "spice_level": "none",
+      "preparation_time": 5
+    },
+    {
+      "name": "Masala Chai",
+      "category": "Beverage",
+      "price": 49,
+      "description": "Traditional Indian tea with aromatic spices",
+      "ingredients": ["tea", "milk", "ginger", "cardamom", "sugar"],
+      "is_vegetarian": true,
+      "is_vegan": false,
+      "spice_level": "none",
+      "preparation_time": 5
+    },
+    {
+      "name": "Chocolate Lava Cake",
+      "category": "Dessert",
+      "price": 149,
+      "description": "Warm chocolate cake with molten chocolate center",
+      "ingredients": ["chocolate", "flour", "butter", "eggs", "sugar"],
+      "is_vegetarian": true,
+      "is_vegan": false,
+      "spice_level": "none",
+      "preparation_time": 12
+    },
+    {
+      "name": "Gulab Jamun",
+      "category": "Dessert",
+      "price": 99,
+      "description": "Soft milk dumplings soaked in sugar syrup",
+      "ingredients": ["milk powder", "flour", "sugar", "cardamom", "ghee"],
+      "is_vegetarian": true,
+      "is_vegan": false,
+      "spice_level": "none",
+      "preparation_time": 10
+    },
+    {
+      "name": "Biryani Rice",
+      "category": "Main Course",
+      "price": 299,
+      "description": "Fragrant basmati rice with aromatic spices",
+      "ingredients": ["basmati rice", "saffron", "spices", "herbs"],
+      "is_vegetarian": true,
+      "is_vegan": true,
+      "spice_level": "medium",
+      "preparation_time": 25
+    }
+  ]
+}

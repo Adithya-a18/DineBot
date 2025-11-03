@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DineBot - Your Restaurant Assistant</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="chat-header">
+            <div class="header-content">
+                <div class="bot-avatar">🤖</div>
+                <div class="header-text">
+                    <h1>DineBot</h1>
+                    <p class="subtitle">Your Virtual Restaurant Assistant</p>
+                </div>
+            </div>
+            <div class="status-indicator">
+                <span class="status-dot"></span>
+                <span class="status-text">Online</span>
+            </div>
+        </header>
+
+        <!-- Quick Suggestions -->
+        <div class="quick-suggestions" id="quickSuggestions">
+            <button class="suggestion-btn" data-query="Show me the menu">📋 Show Menu</button>
+            <button class="suggestion-btn" data-query="What are your timings?">⏰ Timings</button>
+            <button class="suggestion-btn" data-query="Tell me about desserts">🍰 Desserts</button>
+            <button class="suggestion-btn" data-query="Where are you located?">📍 Location</button>
+        </div>
+
+        <!-- Chat Messages Container -->
+        <div class="chat-container" id="chatContainer">
+            <!-- Welcome Message -->
+            <div class="message bot-message">
+                <div class="message-avatar">🤖</div>
+                <div class="message-content">
+                    <p>Hello! Welcome to The Golden Spoon 🍽️</p>
+                    <p>I'm DineBot, your virtual assistant. I can help you with:</p>
+                    <ul>
+                        <li>Browsing our menu</li>
+                        <li>Finding dish details and prices</li>
+                        <li>Restaurant information and timings</li>
+                    </ul>
+                    <p>How can I assist you today?</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div class="typing-indicator" id="typingIndicator" style="display: none;">
+            <div class="message-avatar">🤖</div>
+            <div class="typing-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-container">
+            <form id="chatForm">
+                <input 
+                    type="text" 
+                    id="userInput" 
+                    placeholder="Ask me anything about our restaurant..." 
+                    autocomplete="off"
+                    required
+                >
+                <button type="submit" id="sendBtn">
+                    <span class="send-icon">➤</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/chat.js"></script>
+</body>
+</html>
