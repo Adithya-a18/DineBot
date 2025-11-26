@@ -69,7 +69,7 @@ dinebot/
 
 ```bash
 # If using git
-git clone https://github.com/Vijay-Mirji/DineBot.git
+git clone https://github.com/Adithya-a18/DineBot.git
 cd dinebot
 
 # Or download and extract the ZIP file
